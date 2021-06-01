@@ -1,0 +1,102 @@
+div{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 100px;
+    color: #adbac7;
+    font-family: "Segoe UI", serif;
+}
+
+td{
+    background-color: #22272e;
+    border-radius: 50px;
+    border: 10px solid #1e2329;
+}
+
+table{
+    margin-left: 200px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #adbac7;
+    text-decoration: none;
+}
+
+ul{
+    background-color: #2d333b;
+    text-align: left;
+    border-radius: 10px;
+}
+
+li{
+    letter-spacing: normal;
+    padding: 20px 40px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Segoe UI", serif;
+    color: #CDD9E5;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 36px;
+    background-color: #6f7e80;
+    color: white;
+    text-shadow: 1px 2px black, -1px -1px black, 1px -1px black, -1px 2px black,
+    1px 4px 0 black, -1px 4px 0 black, 0 2px 0 black, 0 -1.5px 0 black, 2px 0 0 black,
+    -1.5px 0 0 black !important;
+    border-radius: 15px;
+}
+
+.brawlers img {
+    width: 300px;
+    height: 200px;
+    object-fit: scale-down;
+}
+
+.brawlers p {
+    font-size: 24px;
+    text-align: center;
+    background-color: #373e47;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.standard .header{
+    background-color: #479def;
+}
+
+.rare .header {
+    background-color: #00dd00;
+}
+
+.ultra-rare .header {
+    background-color: #0055ff
+}
+
+.epic .header {
+    background-color: #ab00ff;
+}
+
+.mythical .header {
+    background-color: #ff0000;
+}
+
+.legendary .header {
+    background-color: #ffff00;
+}
+
+.chromatic .header {
+    background: linear-gradient(100deg,#0000 0%,#0000 45%,#fff4 45%,
+    #fff4 47%,#0000 13%,#0000 57%,#fff4 57%,#fff4 63%,#0000 63%,#0000 70%,
+    #fff4 70%,#fff4 72%,#0000 72%,#0000 80%,#fff4 80%,#fff4 90%,#0000 90%),
+    linear-gradient(100deg,#a0f 45%,#f00 65%,#ff0 85%) !important;
+}

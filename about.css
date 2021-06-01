@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+.about{
+    padding: 50px 50px 50px 50px;
+    color: #adbac7;
+    background-color: #1e2329;
+}
+
+.about img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.about #purpose {
+    text-align: center;
+    font-family: "Segoe UI", serif;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+footer {
+    font-family: "Segoe UI", serif;
+    color: #6f7e80;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+footer a {
+    color: #6f7e80;
+}
