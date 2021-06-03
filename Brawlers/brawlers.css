@@ -1,4 +1,8 @@
-div{
+body {
+    margin: 0;
+}
+
+div {
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 100px;
@@ -6,14 +10,14 @@ div{
     font-family: "Segoe UI", serif;
 }
 
-td{
+td {
     background-color: #22272e;
     border-radius: 50px;
     border: 10px solid #1e2329;
 }
 
-table{
-    margin-left: 200px;
+table {
+    margin-left: 50px;
 }
 
 a {
@@ -26,13 +30,13 @@ a {
     text-decoration: none;
 }
 
-ul{
+ul {
     background-color: #2d333b;
     text-align: left;
     border-radius: 10px;
 }
 
-li{
+li {
     letter-spacing: normal;
     padding: 20px 40px;
     display: inline-block;
@@ -49,9 +53,7 @@ li{
     font-size: 36px;
     background-color: #6f7e80;
     color: white;
-    text-shadow: 1px 2px black, -1px -1px black, 1px -1px black, -1px 2px black,
-    1px 4px 0 black, -1px 4px 0 black, 0 2px 0 black, 0 -1.5px 0 black, 2px 0 0 black,
-    -1.5px 0 0 black !important;
+    text-shadow: 1px 2px black, -1px -1px black, 1px -1px black, -1px 2px black, 1px 4px 0 black, -1px 4px 0 black, 0 2px 0 black, 0 -1.5px 0 black, 2px 0 0 black, -1.5px 0 0 black !important;
     border-radius: 15px;
 }
 
@@ -70,7 +72,7 @@ li{
     border-radius: 50px;
 }
 
-.standard .header{
+.standard .header {
     background-color: #479def;
 }
 
@@ -95,8 +97,5 @@ li{
 }
 
 .chromatic .header {
-    background: linear-gradient(100deg,#0000 0%,#0000 45%,#fff4 45%,
-    #fff4 47%,#0000 13%,#0000 57%,#fff4 57%,#fff4 63%,#0000 63%,#0000 70%,
-    #fff4 70%,#fff4 72%,#0000 72%,#0000 80%,#fff4 80%,#fff4 90%,#0000 90%),
-    linear-gradient(100deg,#a0f 45%,#f00 65%,#ff0 85%) !important;
+    background: linear-gradient(100deg, #0000 0%, #0000 45%, #fff4 45%, #fff4 47%, #0000 13%, #0000 57%, #fff4 57%, #fff4 63%, #0000 63%, #0000 70%, #fff4 70%, #fff4 72%, #0000 72%, #0000 80%, #fff4 80%, #fff4 90%, #0000 90%), linear-gradient(100deg, #a0f 45%, #f00 65%, #ff0 85%) !important;
 }
